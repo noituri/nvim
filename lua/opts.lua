@@ -1,4 +1,4 @@
-vim.cmd("language en_US")
+vim.cmd("language en_US.UTF-8")
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
