@@ -3,7 +3,19 @@ return {
     version = false,
     config = function()
         require('mini.comment').setup()
-        require('mini.starter').setup()
+        require('mini.starter').setup({
+            header = "░░░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓▌█\
+░░░░░▄█▌▀▄▓▓▄▄▄▄▀▀▀▄▓▓▓▓▓▌█\
+░░░▄█▀▀▄▓█▓▓▓▓▓▓▓▓▓▓▓▓▀░▓▌█\
+░░█▀▄▓▓▓███▓▓▓███▓▓▓▄░░▄▓▐█▌\
+░█▌▓▓▓▀▀▓▓▓▓███▓▓▓▓▓▓▓▄▀▓▓▐█\
+▐█▐██▐░▄▓▓▓▓▓▀▄░▀▓▓▓▓▓▓▓▓▓▌█▌\
+█▌███▓▓▓▓▓▓▓▓▐░░▄▓▓███▓▓▓▄▀▐█\
+█▐█▓▀░░▀▓▓▓▓▓▓▓▓▓██████▓▓▓▓▐█\
+▌▓▄▌▀░▀░▐▀█▄▓▓██████████▓▓▓▌█▌\
+▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█▌\
+█▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█"
+        })
         require('mini.surround').setup()
         require('mini.trailspace').setup()
         require('mini.pairs').setup()

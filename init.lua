@@ -39,8 +39,6 @@ local function toggle_profile()
 end
 vim.keymap.set("", "<f1>", toggle_profile)
 
---  TODO
---  Setup lazygit
 
 vim.keymap.set("n", "<leader>gt", "i// TODO(noituri): <ESC>==A", {})
 
