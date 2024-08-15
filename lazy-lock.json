@@ -11,6 +11,7 @@
   "fzf-lua": { "branch": "main", "commit": "e9413dc2b6e8ab7f62385c972df1dceba483492d" },
   "image.nvim": { "branch": "master", "commit": "4007cddc4cfc1b5ddd49744a38362e7b0432b3a0" },
   "indent-blankline.nvim": { "branch": "master", "commit": "3fe94b8034dd5241cb882bb73847303b58857ecf" },
+  "inlay-hints.nvim": { "branch": "master", "commit": "1d5bd49a43f8423bc56f5c95ebe8fe3f3b96ed58" },
   "lazy.nvim": { "branch": "main", "commit": "077102c5bfc578693f12377846d427f49bc50076" },
   "lualine.nvim": { "branch": "master", "commit": "544dd1583f9bb27b393f598475c89809c4d5e86b" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "62360f061d45177dda8afc1b0fd1327328540301" },
