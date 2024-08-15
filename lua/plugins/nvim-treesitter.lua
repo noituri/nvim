@@ -2,10 +2,11 @@ return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
     config = function()
-        vim.filetype.add({extension = {wgsl = "wgsl"}})
+        vim.filetype.add({ extension = { wgsl = "wgsl" } })
 
         local configs = require("nvim-treesitter.configs")
         configs.setup({
+            auto_install = true,
             ensure_installed = {
                 "lua",
                 "rust",
@@ -37,10 +38,11 @@ return {
                 "typescript",
                 "wgsl",
                 "zig",
-                "yaml"
+                "yaml",
+                "nix",
             },
             highlight = { enable = true },
             indent = { enable = true },
         })
-    end
+    end,
 }

@@ -41,4 +41,6 @@ vim.keymap.set("", "<f1>", toggle_profile)
 
 --  TODO
 --  Setup lazygit
---  Setup keybind for "TODO(noituri): "
+
+vim.keymap.set("n", "<leader>gt", "i// TODO(noituri): <ESC>==A", {})
+
