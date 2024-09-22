@@ -15,11 +15,19 @@
 --         vim.cmd.colorscheme "moonfly"
 --     end
 -- }
+-- return {
+--     "neanias/everforest-nvim",
+--     lazy = false,
+--     priority = 1000,
+--     config = function()
+--         vim.cmd.colorscheme "everforest"
+--     end
+-- }
 return {
-    "neanias/everforest-nvim",
+    "noituri/melange-nvim",
     lazy = false,
     priority = 1000,
     config = function()
-        vim.cmd.colorscheme "everforest"
+        vim.cmd.colorscheme "melange"
     end
 }

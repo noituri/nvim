@@ -4,7 +4,7 @@ return {
 	config = function()
 		require("lualine").setup({
 			options = {
-				theme = "everforest",
+				theme = "gruvbox_dark",
 			},
 			sections = {
 				lualine_c = {

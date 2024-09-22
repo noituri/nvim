@@ -22,7 +22,7 @@ return {
 					"dockerls",
 					"bashls",
 					"marksman",
-					"tsserver",
+					"ts_ls",
 					"clangd",
 					"cmake",
 					"gopls",
@@ -71,7 +71,7 @@ return {
 			lspconfig.marksman.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.tsserver.setup({
+			lspconfig.ts_ls.setup({
 				capabilities = capabilities,
 			})
 			lspconfig.glslls.setup({
