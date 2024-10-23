@@ -20,12 +20,12 @@ return {
             exclude_ft = {},
         }
 
-        config.save_hook = function()
-            vim.cmd("Neotree close")
-        end
-        config.post_hook = function()
-            vim.cmd("Neotree filesystem reveal left")
-        end
+        -- config.save_hook = function()
+        --     vim.cmd("Neotree close")
+        -- end
+        -- config.post_hook = function()
+        --     vim.cmd("Neotree filesystem reveal left")
+        -- end
 
         config.fzf_winopts = {
             hl = { normal = "Normal" },
