@@ -147,7 +147,7 @@ return {
 				sources = {
 					{ name = "nvim_lsp" },
 					{ name = "lunasnip" },
-					{ name = "buffer" },
+					-- { name = "buffer" },
 				},
 			})
 		end,

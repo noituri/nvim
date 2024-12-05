@@ -6,3 +6,11 @@ vim.cmd("set shiftwidth=4")
 vim.cmd("set number")
 vim.cmd("set relativenumber")
 vim.g.mapleader = " "
+
+-- TODO(noituri): Temporary fix
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "wgsl",
+  callback = function()
+    vim.bo.commentstring = "// %s"
+  end
+})
